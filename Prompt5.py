@@ -4,7 +4,7 @@ from tabulate import tabulate
 def main():
     x=0
     values = ({'x':[],'sin(x)':[]})
-    for i in range(1001):
+    for i in range(1000):
         y=np.sin(x)
         values["x"].append(x)
         values["sin(x)"].append(y)
